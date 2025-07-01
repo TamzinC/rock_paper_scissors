@@ -8,7 +8,7 @@ A simple Human vs Computer showdown using vanilla JavaScript.
 Inspired by the classic Rock, Paper, Scissors game, this is my take on the ultimate Human vs Computer showdown. Built using pure vanilla JavaScript and styled with CSS, the game allows the user to select their move while the computer randomly selects its own using Math.random(). The winner is displayed instantly and a live score tally keeps track of the battle below. There is no time limit - play as many rounds as you like and see if you can outsmart the machine!
 
 
-# Tech Stack
+## Tech Stack
 - HTML5
 - CSS3
 - JavaScript (ES6)
