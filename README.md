@@ -14,7 +14,7 @@ A simple Human vs Computer showdown using vanilla JavaScript.
 
 ## Description
 
-Inspired by the classic Rock, Paper, Scissors game, this is my take on the ultimate Human vs Computer showdown. Built using pure vanilla JavaScript and styled with CSS, the game allows the user to select their move while the computer randomly selects its own using Math.random(). The winner is displayed instantly and a live score tally keeps track of the battle below. There is no time limit - play as many rounds as you like and see if you can outsmart the machine!
+Inspired by the classic Rock, Paper, Scissors game, this is my take on the ultimate Human vs Computer showdown. Built using pure vanilla JavaScript and styled with CSS, the game allows the user to select their move while the Computer randomly selects its own using `Math.random()`. The winner is displayed instantly and a live score tally keeps track of the battle below. There is no time limit - play as many rounds as you like and see if you can outsmart the machine!
 
 
 ## Tech Stack
@@ -25,12 +25,12 @@ Inspired by the classic Rock, Paper, Scissors game, this is my take on the ultim
 
 ## Installation
 
-No installation required - simply open the [live demo](#) in your browser
+No installation required - simply open the [live demo](https://tamzinc.github.io/rock_paper_scissors/) in your browser.
 
 
 ## Usage
 
-Open the page using this link - [Play game here](#)
+Open the page using this link - [Play game here](https://tamzinc.github.io/rock_paper_scissors/)
 
 When loaded you should be able to see this:
 
@@ -44,7 +44,7 @@ Start the game by clicking the button of your choice. The button will change col
 ![Selecting a choice](./assets/game_preview_choice.png)
 
 
-Once you make your move, the computer will immediately choose its move. The result is displayed straight away in a little pop-up window, which you can close to move onto the next round if you wish. The Computer's choice is also  displayed below the buttons for you to see:
+Once you make your move, the Computer will immediately choose its move. The result is displayed straight away in a little pop-up window, which you can close to move onto the next round if you wish. The Computer's choice is also  displayed below the buttons for you to see:
 
 
 ![Displaying the results](./assets/game_preview_result.png)
