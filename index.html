@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>ROCK, PAPER, SCISSORS</h1>
+        <h4>Computer vs You - who will win?</h4>
+    </div>
+    
+    <p class="select">Select your choice to start the game:</p>
+    <div class="buttons">
+        <button id="rock" ><img class="img-rock"src="/assets/rock(transparent).png">Rock</button>
+        <button id="paper"><img class="img-paper" src="/assets/paper(transparent).png">Paper</button>
+        <button id="scissors"><img class="img-scissors" src="/assets/scissors(transparent).png">Scissors</button>
+    </div>
+
+    <div id="results">
+        <p>Computer chose: <span id="computer-choice">-</span></p>
+        <!-- <p>Result: <span id="result">-</span></p> -->
+    </div>
+    
+    <div class="scores">
+        <!-- <p>Scores</p> -->
+
+        <div class="user-score">
+            <p>YOU: <span id="user-score">0</span></p>
+        </div>
+        <div class="comp-score">
+            <p>COMPUTER: <span id="computer-score">0</span></p>
+        </div>
+    </div>
+
+    <footer class="footer">©Tamzin Chikhalia</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
