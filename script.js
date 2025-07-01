@@ -65,8 +65,10 @@ function showResultPopup(message) {
     const closeBtn = document.createElement("button");
     closeBtn.className = "popup-close-btn";
     closeBtn.textContent = "OK";
-    closeBtn.onclick = () => overlay.remove();
-
+    closeBtn.onclick = () => {
+        overlay.remove();
+        computerChoiceDisplay.textContent = "-"
+    }
     box.appendChild(document.createElement("br"));
     box.appendChild(closeBtn);
     overlay.appendChild(box);
